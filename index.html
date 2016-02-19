@@ -9,7 +9,7 @@
     <meta name="author" content=" Alessandro Orlandi and Robert McGregor">
     <link rel="icon" href="./favicon.ico">
 
-    <title>Dublin Unity User Group</title>
+    <title>DUUG</title>
 
 
     <!-- Bootstrap core CSS -->
@@ -30,10 +30,20 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+	
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+  <style>
+		.carousel .item>img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			max-width: 100%;
+			height: 100%;
+		}
+  </style>
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -46,7 +56,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="./index.html">Dublin Unity User Group</a>
+              <a class="navbar-brand" href="./index.html">Duug</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -80,19 +90,19 @@
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-       <!--  <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li> -->
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li> 
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="./imgs/duug.png" alt="First slide">
+          <img class="first-slide slideImg" src="./imgs/duug.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <p><a class="btn btn-lg btn-primary" href="http://www.meetup.com/Unity3dDublin/" role="button">Join us today.</a></p>
             </div>
           </div>
         </div>
-       <!--  <div class="item">
+         <div class="item">
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
@@ -111,7 +121,7 @@
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
-        </div> -->
+        </div> 
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -152,6 +162,28 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 	  
+	   <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="./imgs/facebook_logo.png" alt="Facebook Page" width="140" height="140">
+          <h2>Facebook</h2>
+          <p>You can our Facebook page.</p>
+          <p><a class="btn btn-default" href="https://www.facebook.com/DublinUnity3dUserGroup/" role="button">View our Facebook page&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./imgs/twitter.jpg" alt="twitter logo" width="140" height="140">
+          <h2>Twitter</h2>
+          <p>You can follow us on twitter.</p>
+          <p><a class="btn btn-default" href="#" role="button">Follow us &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./imgs/steam.png" alt="Steam Logo" width="140" height="140">
+          <h2>Steam</h2>
+          <p>... Or you we can play together us on steam.</p>
+          <p><a class="btn btn-default" href="http://steamcommunity.com/groups/dublinuug" role="button">Join our Steam &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	  
+	  
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
@@ -178,7 +210,33 @@
         </div>
       </div>
 
+	  
       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">A way to learn. <span class="text-muted">The tutorial Club.</span></h2>
+          <p class="lead">It's a way to learn new things together doing a tutorial every month. Did you have any problem is doing them? You can join our meetup and ask. we'll (try) to help you. Check the last tutorial <a href="./tutorial.html">here</a></p>
+        </div>
+        <div class="col-md-5">
+          <a href="./tutorial.html"><img class="featurette-image img-responsive center-block" src="./imgs/tutorialclub.png" alt="A meetup image"></A>
+        </div>
+      </div>
+	  
+	  <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Our events.  <span class="text-muted">They're cool.</span></h2>
+          <p class="lead">Our events usually are composed by One or two presentations in which we speak of some particular topics. After the presentation we have a space in which people can talk about their unity3d problem or playing each other game.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./imgs/imageMeetup.jpg" alt="A meetup image">
+        </div>
+      </div>
+	  
+	  
+     <!--<hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
@@ -188,7 +246,7 @@
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="./imgs/imageMeetup2.jpg" alt="Generic placeholder image">
         </div>
-      </div>
+      </div> -->
 
       <hr class="featurette-divider">
 
